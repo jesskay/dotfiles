@@ -30,3 +30,13 @@ set shiftwidth=4
 set expandtab
 set list
 set listchars=tab:⇥\ 
+" reselect after reindenting
+vmap < <gv
+vmap > >gv
+
+" and of course, the other sort of tabs
+nmap <leader>tt :tabnew<cr>
+
+" and tab _completion_, too
+set wildmenu
+set wildmode=longest:full
