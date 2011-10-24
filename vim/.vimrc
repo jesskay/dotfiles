@@ -4,12 +4,17 @@ set nocompatible
 " pathogen all up in this birch
 call pathogen#infect()
 
+" colorscheme is go
+set background=dark
+colorscheme molokai
+
 " let's get some basic comforts
 syntax on
 filetype plugin indent on
 set laststatus=2  " always show status line
 set cursorline
 set cursorcolumn
+set number
 
 " editor width
 set wrap
